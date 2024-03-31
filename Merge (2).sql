@@ -1,4 +1,9 @@
 -- Databricks notebook source
+-- MAGIC %python
+-- MAGIC print('test')
+
+-- COMMAND ----------
+
 SET spark.databricks.delta.commitValidation.enabled = false;
 
 
